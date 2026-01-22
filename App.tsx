@@ -476,7 +476,7 @@ const App: React.FC = () => {
                   <ScrollReveal className="bg-emerald-50 dark:bg-emerald-900/10 rounded-[80px] p-10 sm:p-20 flex flex-col lg:flex-row items-center gap-16 border-2 border-emerald-100 dark:border-emerald-800/30">
                      <div className="w-full lg:w-2/5 relative">
                         <div className="absolute inset-0 bg-brandOrange rounded-[60px] translate-x-4 translate-y-4"></div>
-                        <img src="public/assets/director.jpeg" className="relative aspect-[3/4] rounded-[60px] overflow-hidden shadow-2xl border-4 border-white dark:border-gray-800 object-cover" alt="Spotlight" />
+                        <img src=" /assets/director.jpeg" className="relative aspect-[3/4] rounded-[60px] overflow-hidden shadow-2xl border-4 border-white dark:border-gray-800 object-cover" alt="Spotlight" />
                         <div className="absolute top-6 right-6 bg-brandOrange text-white px-4 py-2 rounded-full font-black text-[10px] uppercase shadow-lg">School Director</div>
                      </div>
                      <div className="w-full lg:w-3/5 space-y-8">
