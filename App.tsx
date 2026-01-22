@@ -797,7 +797,7 @@ const App: React.FC = () => {
                            <div className="p-10 bg-gray-50 dark:bg-gray-800 rounded-[50px] border border-gray-100 dark:border-gray-800 transition-all hover:border-brandOrange group">
                               <div className="w-14 h-14 bg-brandOrange text-white rounded-2xl flex items-center justify-center mb-6 text-2xl group-hover:scale-110 transition-transform">📩</div>
                               <h4 className="text-lg font-black text-brandBlue dark:text-white uppercase mb-2">Email Us</h4>
-                              <p className="text-sm font-bold text-gray-500">info@ipsgogera.pk</p>
+                              <p className="text-sm font-bold text-gray-500">iqrapublicschoolgogeracampus</p>
                            </div>
                         </div>
                      </div>
@@ -849,11 +849,11 @@ const App: React.FC = () => {
                                 <div className="space-y-6">
                                    <div className="space-y-2">
                                       <label className="text-[10px] font-black uppercase tracking-widest text-brandOrange">Full Name</label>
-                                      <input required type="text" className="w-full bg-white/5 border-b border-white/20 py-4 outline-none focus:border-brandOrange transition-all font-bold text-xl placeholder:text-white/10" placeholder="e.g. Ali Ahmed" />
+                                      <input required type="text" className="w-full bg-white/5 border-b border-white/20 py-4 outline-none focus:border-brandOrange transition-all font-bold text-xl placeholder:text-white/10" placeholder="Name" />
                                    </div>
                                    <div className="space-y-2">
                                       <label className="text-[10px] font-black uppercase tracking-widest text-brandOrange">Email Address</label>
-                                      <input required type="email" className="w-full bg-white/5 border-b border-white/20 py-4 outline-none focus:border-brandOrange transition-all font-bold text-xl placeholder:text-white/10" placeholder="e.g. ali@example.com" />
+                                      <input required type="email" className="w-full bg-white/5 border-b border-white/20 py-4 outline-none focus:border-brandOrange transition-all font-bold text-xl placeholder:text-white/10" placeholder="Email" />
                                    </div>
                                    <div className="space-y-2">
                                       <label className="text-[10px] font-black uppercase tracking-widest text-brandOrange">Subject</label>
