@@ -290,13 +290,13 @@ const App: React.FC = () => {
                         </div>
                      </div>
                      <div className="rounded-[40px] overflow-hidden group relative">
-                        <img src="public/assets/gallery5.jpeg" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" alt="Gallery 2" />
+                        <img src="/assets/gallery5.jpeg" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" alt="Gallery 2" />
                      </div>
                      <div className="rounded-[40px] overflow-hidden group relative">
-                        <img src="public/assets/gallery4.jpeg" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" alt="Gallery 3" />
+                        <img src="/assets/gallery4.jpeg" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" alt="Gallery 3" />
                      </div>
                      <div className="col-span-2 rounded-[40px] overflow-hidden group relative">
-                        <img src="public/assets/gallery1.jpeg" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" alt="Gallery 4" />
+                        <img src="/assets/gallery1.jpeg" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" alt="Gallery 4" />
                      </div>
                   </div>
                </div>
@@ -403,7 +403,7 @@ const App: React.FC = () => {
                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
                      <ScrollReveal className="p-12 bg-gray-50 dark:bg-gray-800 rounded-[80px]">
                         <div className="flex items-center space-x-8 mb-8">
-                           <img src="public/assets/director.jpeg" className="w-24 h-24 rounded-3xl object-cover" alt="Director" />
+                           <img src="/assets/director.jpeg" className="w-24 h-24 rounded-3xl object-cover" alt="Director" />
                            <div>
                               <h4 className="text-2xl font-black text-brandBlue dark:text-white uppercase">Haroon Jameel</h4>
                               <p className="text-brandOrange font-black uppercase text-[10px]">Director & Strategist</p>
@@ -413,7 +413,7 @@ const App: React.FC = () => {
                      </ScrollReveal>
                      <ScrollReveal className="p-12 bg-brandBlue text-white rounded-[80px] lg:translate-y-12">
                         <div className="flex items-center space-x-8 mb-8">
-                           <img src="public/assets/ico11.jpeg" className="w-24 h-24 rounded-3xl object-cover" alt="Principal" />
+                           <img src="/assets/ico11.jpeg" className="w-24 h-24 rounded-3xl object-cover" alt="Principal" />
                            <div>
                               <h4 className="text-2xl font-black uppercase text-white">Bilal Jameel</h4>
                               <p className="text-brandOrange font-black uppercase text-[10px]">Principal</p>
@@ -492,10 +492,10 @@ const App: React.FC = () => {
                   <h2 className="text-4xl sm:text-7xl font-[1000] text-brandBlue dark:text-white tracking-tighter uppercase mb-24">The <span className="text-brandOrange">Faculty</span> Core.</h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
                      {[
-                        { name: 'Miss Iqra', sub: 'IT Head', img: 'public/assets/img7.jpeg', icon: '💻' },
-                        { name: 'Miss Azrha', sub: 'Science', img: 'public/assets/img8.jpeg', icon: '🧪' },
-                        { name: 'Mr. Taswar', sub: 'English', img: 'public/assets/img10.jpeg', icon: '📚' },
-                        { name: 'Miss Areesha', sub: 'Islamic', img: 'public/assets/img9.jpeg', icon: '🕌' }
+                        { name: 'Miss Iqra', sub: 'IT Head', img: '/assets/img7.jpeg', icon: '💻' },
+                        { name: 'Miss Azrha', sub: 'Science', img: '/assets/img8.jpeg', icon: '🧪' },
+                        { name: 'Mr. Taswar', sub: 'English', img: '/assets/img10.jpeg', icon: '📚' },
+                        { name: 'Miss Areesha', sub: 'Islamic', img: '/assets/img9.jpeg', icon: '🕌' }
                      ].map((t, i) => (
                         <ScrollReveal key={i} className="group text-center">
                            <div className="relative mb-6">
@@ -625,8 +625,8 @@ const App: React.FC = () => {
                      </div>
                   </ScrollReveal>
                   <ScrollReveal className="grid grid-cols-2 gap-4">
-                     <img src="public/assets/footer1.jpeg" className="rounded-3xl shadow-lg hover:scale-105 transition-transform" alt="Environment 1" />
-                     <img src="public/assets/img3.jpeg" className="rounded-3xl shadow-lg translate-y-8 hover:scale-105 transition-transform" alt="Environment 2" />
+                     <img src="/assets/footer1.jpeg" className="rounded-3xl shadow-lg hover:scale-105 transition-transform" alt="Environment 1" />
+                     <img src="/assets/img3.jpeg" className="rounded-3xl shadow-lg translate-y-8 hover:scale-105 transition-transform" alt="Environment 2" />
                   </ScrollReveal>
                </div>
             </section>
