@@ -1,0 +1,7 @@
+{
+  "name": "Iqra Public School - Gogera Campus",
+  "description": "Official website for Iqra Public School, Gogera Campus. Quality education for a brighter future.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
