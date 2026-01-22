@@ -205,7 +205,7 @@ const App: React.FC = () => {
             <section id="home" className="relative h-[80vh] sm:h-[90vh] lg:h-screen flex items-center bg-brandBlue overflow-hidden">
               <div className="absolute inset-0 z-0">
                 <video autoPlay muted loop playsInline poster="https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1600" className="w-full h-full object-cover scale-105">
-                  <source src="public/assets/Vedio.mp4" type="video/mp4" />
+                  <source src="/assets/Vedio.mp4" type="video/mp4" />
                 </video>
                 <div className="absolute inset-0 bg-gradient-to-b from-brandBlue/80 via-brandBlue/40 to-brandBlue/90"></div>
               </div>
@@ -240,7 +240,7 @@ const App: React.FC = () => {
                     <div className="relative group">
                        <div className="absolute inset-0 bg-brandOrange rounded-[80px] rotate-3 group-hover:rotate-0 transition-transform duration-700"></div>
                        <div className="relative aspect-[4/5] rounded-[80px] overflow-hidden shadow-3xl border-8 border-white dark:border-gray-800 -rotate-3 group-hover:rotate-0 transition-transform duration-700">
-                          <img src="public/assets/director.jpeg" className="w-full h-full object-cover" alt="Director Vision" />
+                          <img src="/assets/director.jpeg" className="w-full h-full object-cover" alt="Director Vision" />
                           <div className="absolute inset-0 bg-gradient-to-t from-brandBlue/80 to-transparent"></div>
                           <div className="absolute bottom-10 left-10 text-white">
                              <h4 className="text-3xl font-[1000] uppercase tracking-tighter">Director's Desk</h4>
