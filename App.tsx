@@ -138,8 +138,8 @@ const App: React.FC = () => {
   return (
     <div className="min-h-screen bg-white dark:bg-darkBg text-gray-900 dark:text-gray-100 transition-colors duration-300 selection:bg-brandOrange selection:text-white overflow-x-hidden w-full relative">
       
-      {/* Navigation */}
-      <nav className="bg-white/95 dark:bg-darkBg/95 backdrop-blur-md sticky top-0 z-[70] border-b border-gray-100 dark:border-gray-800 transition-all w-full">
+      {/* Navigation - Fixed Position to ensure it stays at top */}
+      <nav className="fixed top-0 left-0 w-full bg-white/95 dark:bg-darkBg/95 backdrop-blur-md z-[70] border-b border-gray-100 dark:border-gray-800 transition-all">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 flex justify-between items-center h-16 sm:h-20 lg:h-24">
           <div className="flex items-center space-x-2 sm:space-x-4 cursor-pointer min-w-0" onClick={() => setView('home')}>
             <ICONS.ShellyLogo className="w-8 h-8 sm:w-12 sm:h-12 lg:w-16 lg:h-16 flex-shrink-0" />
@@ -176,10 +176,13 @@ const App: React.FC = () => {
         </div>
       </nav>
 
+      {/* Spacer for fixed nav */}
+      <div className="h-16 sm:h-20 lg:h-24"></div>
+
       {/* MOBILE MENU DRAWER */}
       <div className={`fixed inset-0 z-[100] transition-all duration-500 ${isMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'}`}>
          <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" onClick={() => setIsMenuOpen(false)}></div>
-         <div className={`absolute top-0 right-0 w-[85%] max-w-sm h-full bg-white dark:bg-darkBg transition-transform duration-500 ease-in-out transform ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'} shadow-2xl flex flex-col`}>
+         <div className={`absolute top-0 right-0 w-[85%] max-sm h-full bg-white dark:bg-darkBg transition-transform duration-500 ease-in-out transform ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'} shadow-2xl flex flex-col`}>
             <div className="flex items-center justify-between px-6 h-16 sm:h-20 border-b border-gray-100 dark:border-gray-800 bg-white dark:bg-darkBg">
               <div className="flex items-center space-x-3">
                  <ICONS.ShellyLogo className="w-8 h-8 flex-shrink-0" />
@@ -223,11 +226,11 @@ const App: React.FC = () => {
                     Blending Silicon Valley digital expertise with timeless moral character. Gogera's hub for future leaders.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4 pt-6 sm:pt-10">
-                    <button className="group relative hover:text-[#ff7e21]  w-full sm:w-auto overflow-hidden bg-brandOrange text-white font-[1000] px-10 py-5 sm:px-16 sm:py-8 rounded-full uppercase text-[10px] sm:text-sm tracking-widest shadow-2xl transition-all hover:scale-105 active:scale-95">
-                       <span className="relative z-10">Join the Campus</span>
+                    <button className="group relative w-full sm:w-auto overflow-hidden bg-brandOrange text-white font-[1000] px-10 py-5 sm:px-16 sm:py-8 rounded-full uppercase text-[10px] sm:text-sm tracking-widest shadow-2xl transition-all hover:scale-105 active:scale-95 border-2 border-brandOrange hover:border-white">
+                       <span className="relative z-10 transition-colors duration-500 group-hover:text-brandBlue">Join the Campus</span>
                        <div className="absolute inset-0 bg-white translate-y-full group-hover:translate-y-0 transition-transform duration-500"></div>
                     </button>
-                    <button onClick={() => setView('about')} className="w-full sm:w-auto bg-white/10 backdrop-blur-md text-white border border-white/20 px-10 py-5 sm:px-16 sm:py-8 rounded-full font-[1000] uppercase text-[10px] sm:text-sm tracking-widest text-center transition-all hover:bg-white/20 ">Explore Our Legacy</button>
+                    <button onClick={() => setView('about')} className="w-full sm:w-auto bg-white/10 backdrop-blur-md text-white border border-white/20 px-10 py-5 sm:px-16 sm:py-8 rounded-full font-[1000] uppercase text-[10px] sm:text-sm tracking-widest text-center transition-all hover:bg-white/20">Explore Our Legacy</button>
                   </div>
                 </ScrollReveal>
               </div>
