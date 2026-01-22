@@ -433,9 +433,9 @@ const App: React.FC = () => {
                   </div>
                   <div className="relative border-l-4 border-brandBlue/10 space-y-20 ml-6 sm:ml-20">
                      {[
-                        { year: '2009', title: 'The First Brick', desc: 'IPS Gogera opened its doors to serve the local community.' },
-                        { year: '2015', title: 'IT Wing', desc: 'Integrated high-speed labs and digital learning tools.' },
-                        { year: '2020', title: 'Oxford Standard', desc: 'Adopted Oxford curriculum across all grades.' },
+                        { year: '2022', title: 'The First Brick', desc: 'IPS Gogera opened its doors to serve the local community.' },
+                        { year: '2023', title: 'IT Wing', desc: 'Integrated high-speed labs and digital learning tools.' },
+                        { year: '2024', title: 'Oxford Standard', desc: 'Adopted Oxford curriculum across all grades.' },
                         { year: '2025', title: 'AI Launch', desc: 'Full AI & Coding integration for all primary levels.' }
                      ].map((item, idx) => (
                         <ScrollReveal key={idx} className="relative pl-12 group">
@@ -561,7 +561,7 @@ const App: React.FC = () => {
                       age: 'Ages 3-5',
                       desc: 'Our Early Childhood Development wing follows a world-class play-based approach. We focus on sensory integration, social grace, and basic literacy in a colorful, safe environment.', 
                       color: 'border-blue-500', 
-                      img: 'public/assets/gallery1.jpeg',
+                      img: '/assets/gallery1.jpeg',
                       highlights: ['Sensory Play', 'Social Grace', 'Oral Skills', 'Moral Stories']
                     },
                     { 
@@ -569,7 +569,7 @@ const App: React.FC = () => {
                       age: 'Grades 1-5',
                       desc: 'The Primary Wing utilizes the Oxford Progressive series. We prioritize a deep conceptual understanding of Math and English, alongside strong character-building workshops.', 
                       color: 'border-brandOrange', 
-                      img: 'public/assets/gallery4.jpeg',
+                      img: '/assets/gallery4.jpeg',
                       highlights: ['Conceptual Math', 'Oxford English', 'Sabaq Urdu', 'Digital Basics']
                     },
                     { 
@@ -577,7 +577,7 @@ const App: React.FC = () => {
                       age: 'Grades 6-8',
                       desc: 'Middle School is where students transition to leaders. Our STEM focus, advanced digital labs, and public speaking modules prepare them for high-school success.', 
                       color: 'border-brandBlue', 
-                      img: 'public/assets/gallery5.jpeg',
+                      img: '/assets/gallery5.jpeg',
                       highlights: ['Advanced IT', 'Science Labs', 'Civic Ethics', 'Career Mentoring']
                     }
                   ].map((c, i) => (
