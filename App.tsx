@@ -409,7 +409,7 @@ const App: React.FC = () => {
                            <img src="/assets/director.jpeg" className="w-24 h-24 rounded-3xl object-cover" alt="Director" />
                            <div>
                               <h4 className="text-2xl font-black text-brandBlue dark:text-white uppercase">Haroon Jameel</h4>
-                              <p className="text-brandOrange font-black uppercase text-[10px]">Director & Strategist</p>
+                              <p className="text-brandOrange font-black uppercase text-[10px]">Institute Director</p>
                            </div>
                         </div>
                         <p className="text-lg font-bold text-gray-600 dark:text-gray-400">"We are building a legacy of excellence for every family in Okara, focusing on future-proof skills."</p>
