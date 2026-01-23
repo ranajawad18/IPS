@@ -477,7 +477,7 @@ const App: React.FC = () => {
                      <div className="w-full lg:w-2/5 relative">
                         <div className="absolute inset-0 bg-brandOrange rounded-[60px] translate-x-4 translate-y-4"></div>
                         <img src=" /assets/director.jpeg" className="relative aspect-[3/4] rounded-[60px] overflow-hidden shadow-2xl border-4 border-white dark:border-gray-800 object-cover" alt="Spotlight" />
-                        <div className="absolute top-6 right-6 bg-brandOrange text-white px-4 py-2 rounded-full font-black text-[10px] uppercase shadow-lg">School Director</div>
+                        <div className="absolute top-6 right-6 bg-brandOrange text-white px-4 py-2 rounded-full font-black text-[10px] uppercase shadow-lg">Institution Director</div>
                      </div>
                      <div className="w-full lg:w-3/5 space-y-8">
                         <h2 className="text-4xl sm:text-6xl font-[1000] text-brandBlue dark:text-white tracking-tighter uppercase">Leading through <span className="text-brandOrange">Excellence.</span></h2>
@@ -495,10 +495,10 @@ const App: React.FC = () => {
                   <h2 className="text-4xl sm:text-7xl font-[1000] text-brandBlue dark:text-white tracking-tighter uppercase mb-24">The <span className="text-brandOrange">Faculty</span> Core.</h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
                      {[
-                        { name: 'Miss Iqra', sub: 'IT Head', img: '/assets/img7.jpeg', icon: '💻' },
-                        { name: 'Miss Azrha', sub: 'Science', img: '/assets/img8.jpeg', icon: '🧪' },
-                        { name: 'Mr. Taswar', sub: 'English', img: '/assets/img10.jpeg', icon: '📚' },
-                        { name: 'Miss Areesha', sub: 'Islamic', img: '/assets/img9.jpeg', icon: '🕌' }
+                        { name: 'Miss Iqra', sub: 'IT Head studies head', img: '/assets/img7.jpeg', icon: '💻' },
+                        { name: 'Miss Azrha', sub: 'Science studies head', img: '/assets/img8.jpeg', icon: '🧪' },
+                        { name: 'Mr. Taswar', sub: 'English studies head', img: '/assets/img10.jpeg', icon: '📚' },
+                        { name: 'Miss Areesha', sub: 'Islamic studies head', img: '/assets/img9.jpeg', icon: '🕌' }
                      ].map((t, i) => (
                         <ScrollReveal key={i} className="group text-center">
                            <div className="relative mb-6">
