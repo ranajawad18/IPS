@@ -144,7 +144,7 @@ const App: React.FC = () => {
           <div className="flex items-center space-x-2 sm:space-x-4 cursor-pointer min-w-0" onClick={() => setView('home')}>
             <ICONS.ShellyLogo className="w-8 h-8 sm:w-12 sm:h-12 lg:w-16 lg:h-16 flex-shrink-0" />
             <div className="leading-none min-w-0 flex flex-col justify-center">
-              <span className="text-[13px] sm:text-xl lg:text-3xl font-[1000] text-brandBlue dark:text-white block tracking-tighter uppercase truncate">IQRA PUBLIC</span>
+              <span className="text-[13px] sm:text-xl lg:text-3xl font-[1000] text-brandBlue dark:text-white block tracking-tighter uppercase truncate">IQRA PUBLIC School & College</span>
               <span className="text-[6px] sm:text-[9px] lg:text-[11px] uppercase tracking-wider font-black text-brandOrange whitespace-nowrap">Gogera Campus</span>
             </div>
           </div>
