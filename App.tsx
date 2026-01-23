@@ -246,7 +246,7 @@ const App: React.FC = () => {
                           <img src="/assets/director.jpeg" className="w-full h-full object-cover" alt="Director Vision" />
                           <div className="absolute inset-0 bg-gradient-to-t from-brandBlue/80 to-transparent"></div>
                           <div className="absolute bottom-10 left-10 text-white">
-                             <h4 className="text-3xl font-[1000] uppercase tracking-tighter">Director's Desk</h4>
+                             <h4 className="text-3xl font-[1000] uppercase tracking-tighter">Institution Director</h4>
                              <p className="text-brandOrange font-black uppercase tracking-widest text-xs mt-1">Haroon Jameel</p>
                           </div>
                        </div>
